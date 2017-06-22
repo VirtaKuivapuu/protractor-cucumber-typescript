@@ -1,0 +1,207 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Check the page title",
+    "tags": [],
+    "uri": "/Users/yuxuan.zhao/Documents/yi/features/PageTitle.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Check page title for Adoption page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@PageTitle"
+          }
+        ],
+        "id": "check-the-page-title;check-page-title-for-adoption-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the zoo website",
+            "result": {
+              "status": "passed",
+              "duration": 1433
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/stepdefinitions/onHome.ts:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I navigate to adoption_link",
+            "result": {
+              "status": "passed",
+              "duration": 2176
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/stepdefinitions/navigate.ts:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check page title is \"Adoption\"",
+            "result": {
+              "status": "passed",
+              "duration": 13
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/stepdefinitions/checkTitle.ts:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Check page title for Adoption page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@PageTitle"
+          }
+        ],
+        "id": "check-the-page-title;check-page-title-for-adoption-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the zoo website",
+            "result": {
+              "status": "passed",
+              "duration": 1514
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/stepdefinitions/onHome.ts:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I navigate to about_link",
+            "result": {
+              "status": "passed",
+              "duration": 1587
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/stepdefinitions/navigate.ts:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check page title is \"About Zoo\"",
+            "result": {
+              "status": "passed",
+              "duration": 10
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/stepdefinitions/checkTitle.ts:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Check page title for Adoption page",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@PageTitle"
+          }
+        ],
+        "id": "check-the-page-title;check-page-title-for-adoption-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the zoo website",
+            "result": {
+              "status": "passed",
+              "duration": 518
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/stepdefinitions/onHome.ts:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I navigate to contact_link",
+            "result": {
+              "status": "passed",
+              "duration": 1796
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/stepdefinitions/navigate.ts:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I check page title is \"Contact\"",
+            "result": {
+              "status": "passed",
+              "duration": 11
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/stepdefinitions/checkTitle.ts:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/yuxuan.zhao/Documents/yi/support/hooks.ts:19"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "check-the-page-title"
+  }
+]
